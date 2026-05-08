@@ -1,5 +1,6 @@
 import {} from 'react'
 
+import Nav from './components/Nav/Nav'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Tour-and-travel-website</h1>
+      <Nav/>
     </>
   )
 }

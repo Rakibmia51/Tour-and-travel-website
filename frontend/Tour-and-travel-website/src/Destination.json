@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Canada, Gananoque Island",
+        "image": "Image/Destination-image-1.jpg",
+        "days": "7 Days",
+        "location": "Canada",
+        "pere": "Fare far away, behind the word mountain far form the countries.."
+    },
+    {
+        "id": 2,
+        "name": "Bali, Uluwatu Temple",
+        "image": "Image/Destination-image-2.jpg",
+        "days": "5 Days",
+        "location": "Indonesia",
+        "pere": "Experience the tropical paradise with stunning sunsets and crystal clear beaches."
+    },
+    {
+        "id": 3,
+        "name": "Paris, Eiffel Tower",
+        "image": "Image/Destination-image-3.jpg",
+        "days": "4 Days",
+        "location": "France",
+        "pere": "A romantic journey through the city of lights and world-class architecture."
+    },
+    {
+        "id": 4,
+        "name": "Santorini, Oia Village",
+        "image": "Image/Destination-image-4.jpg",
+        "days": "6 Days",
+        "location": "Greece",
+        "pere": "Iconic white buildings and blue domes overlooking the vast Aegean Sea."
+    },
+    {
+        "id": 5,
+        "name": "Kyoto, Arashiyama",
+        "image": "Image/Destination-image-5.jpg",
+        "days": "8 Days",
+        "location": "Japan",
+        "pere": "Walk through the serene bamboo groves and discover ancient spiritual shrines."
+    },
+    {
+        "id": 6,
+        "name": "Sylhet, Ratargul Forest",
+        "image": "Image/Destination-image-6.jpg",
+        "days": "3 Days",
+        "location": "Bangladesh",
+        "pere": "Explore the Amazon of the East in this unique freshwater swamp forest."
+    }
+]

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Playwrite+AR+Guides&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--Urbanist-font);
+    scroll-behavior: smooth;
+}
+
+:root{
+    --poppins-font:"Poppins", sans-serif;
+    --Urbanist-font:"Urbanist", sans-serif;
+    --Kings-font:"Kings", cursive;
+   
+    --white: #fff;
+    --text-color: #2B2A30;
+    --primary-color: #4400E7;
+    --primary-dark: #281963;
+    --primary-light: #D3DFE9;
+    --pg-color: #363639;
+    --btn-dark: #212529;
+    --prim-grident: linear-gradient(90deg, #4300e7 0%, #7d00fc 100% );
+    --btn-light: linear-gradient(90deg, #4300e7 0%, #7d00fc 100% );
+
+    --top-color: #f7f7f7;
+    --bordr-color: #4f4e5426;
+    --icon-prim-color: #3D6AD6;
+    --icon-sec-color: #E60023;
+    --footer-color: #183153;
+    --secondary-color: #54595f;
+
+    --rtansition-gegular: .3s;
+    --rtranstion-slow: .6s;
+}
+
+body{
+    overflow: hidden !important;
+}
