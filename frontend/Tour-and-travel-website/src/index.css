@@ -32,10 +32,88 @@
     --footer-color: #183153;
     --secondary-color: #54595f;
 
-    --rtansition-gegular: .3s;
-    --rtranstion-slow: .6s;
+    --transition-regular: .3s; /* Fixed typo */
+    --transition-slow: .6s;    /* Fixed typo */
 }
 
 body{
     overflow: hidden !important;
+}
+
+.custom-nav{
+    padding: 0 12%;
+    height: 90px;
+    border: 1px solid rgba(208, 201, 201, 0.5);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: 999;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #000;
+}
+
+.white-them a,
+.white-them .search-icon{
+    color: var(--white) !important;
+}
+
+.black-them{
+    background-color: var(--white);
+}
+.black-them a,
+.black-them .logo span,
+.black-them .search-icon{
+    color: #000;
+}
+
+.logo{
+    font-family: var(--Kings-font);
+    font-size: 2.5rem;
+    color: var(--white);
+}
+.logo span{
+    font-family: var(--Kings-font);
+    color: var(--white);
+}
+
+.nav-item a{
+    font-size: 1.2rem;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: var(--Urbanist-font);
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav-item a::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    transition: var(--transition-regular);
+}
+.nav-item a:hover::after{
+    width: 100%;
+}
+.search-icon{
+    font-size: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.navbar-toggler{
+    color: var(--white) !important;
+    background-color: var(--white) !important;
+}
+.modal{
+     background-color: #00000065;
+}
+
+.modal-input input{
+    outline: none;
+    box-shadow: none !important;
+    border: none !important;
 }
