@@ -2,7 +2,7 @@ import {} from 'react'
 
 import Nav from './components/Nav/Nav'
 import './App.css'
-import Index from './components/Pages'
+import Index from './components/Pages/Index'
 
 function App() {
  
